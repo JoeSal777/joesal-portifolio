@@ -11,7 +11,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar">
                <div>
-                    <h3>position fix commented</h3>
+                    <h3>position top and left commented</h3>
                 </div> 
             </nav>
         );
