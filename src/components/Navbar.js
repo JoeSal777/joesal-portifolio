@@ -11,7 +11,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar">
                <div>
-                    <h3>hello from the New Navbar</h3>
+                    <h3>hello from the dot Navbar</h3>
                 </div> 
             </nav>
         );
