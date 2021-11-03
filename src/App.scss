@@ -21,3 +21,6 @@ body{
   overflow: auto;
   -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
 }
+body::-webkit-scrollbar {
+  display: none;
+}
