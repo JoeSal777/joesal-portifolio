@@ -8,7 +8,7 @@
   --mainLight:#f3f3f3;
   --mainDark:#19202A;
   --primaryFont: 'Nunito', sans-serif;
-  --SecondaryFont: 'Tangerine', cursive;
+  --secondaryFont: 'Tangerine', cursive;
 }
 
 @import "./styles/_fonts.scss";
@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 }
 
 .text-subtitle{
-  font-family: var(--secondaryFont) !important;
+  font-family: var(--primaryFont) !important;
   text-transform: capitalize;
 }
 
@@ -203,7 +203,7 @@ button:focus {
 
 /* Image */
 .young_developer_img{
-  padding-top: 50px;
+  padding-top: 70px;
   text-align: center;
 }
 .landingPage_main_area img{
@@ -243,12 +243,12 @@ button:focus {
   color: var(--secondaryColor);
   opacity: 60%;
   transition-duration: 0.8s;
+  text-decoration: none;
   @include standardFonts();
 }
 .home-attributes a:hover{
   color: var(--lightAccentColor);
   opacity: 100%;
-  text-decoration: none;
 }
 .home-attributes li{
   margin-left: 0.5rem;
@@ -259,10 +259,10 @@ button:focus {
   position: absolute;
   width: 100%;
   bottom: 0px;
-  background: var(--primaryColor);
+  //background: var(--primaryColor);  //would serve for mobile and tablet views if activated
   text-align: center;
   height: 8vh;
-  line-height: 8vh;
+  //line-height: 8vh;
 }
 @media screen and (min-width: 768px) {
   .landingPage_main_area{

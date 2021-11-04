@@ -19,7 +19,7 @@ class LandingPage extends Component {
 
                 {/* title */}
                 <div className="title-wrapper tittle-element">
-                    <div className="titlee">
+                    <div className="title">
                         <h1>Joseph Salem Mensah-Larkai</h1>
                     </div>
                 </div>
