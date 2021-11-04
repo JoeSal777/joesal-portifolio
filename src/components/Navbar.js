@@ -19,7 +19,7 @@ class Navbar extends Component {
                 <div className="nav-center">
                     <div className="nav-header">
                         <div>
-                            <h3>hello from the  page</h3>
+                            <h3>hello from the space between</h3>
                         </div>
                         {/* For logo */}
                         {/* <Link to="/">
