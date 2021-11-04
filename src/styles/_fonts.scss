@@ -1,0 +1,7 @@
+$standardFontSize: 0.90em;
+
+@mixin standardFonts{
+    font-size: $standardFontSize;
+    font-weight: lighter !important;
+    letter-spacing: 0.3px;
+}

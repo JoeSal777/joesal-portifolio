@@ -11,6 +11,10 @@
   --SecondaryFont: 'Tangerine', cursive;
 }
 
+@import "./styles/_fonts.scss";
+@import "./styles/_contact.scss";
+@import "./styles/_effects.scss";
+
 body{
   font-family: var(--primaryFont) !important;
   background: var(--mainDark) !important;
@@ -91,7 +95,7 @@ button:focus {
   transition: var(--mainTransition);
   text-align: right;
   transition-duration: 1s;
-//  @include standardFonts();
+  @include standardFonts();
 }
 .nav-links a:hover {
   color: var(--lightAccentColor);
@@ -131,14 +135,14 @@ button:focus {
     color: var(--secondaryColor);
     font-size: 1.2rem;
 
-//     // for backward-movement animation thingy
-//     -webkit-transform: perspective(1px) translateZ(0);
-//     transform: perspective(1px) translateZ(0);
-//     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-//     -webkit-transition-duration: 0.3s;
-//     transition-duration: 0.3s;
-//     -webkit-transition-property: transform;
-//     transition-property: transform;
+    // for backward-movement animation thingy
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
     
   }
   .nav-btn-big-screen button:hover, .nav-btn-big-screen button:focus, .nav-btn-big-screen button:active{
