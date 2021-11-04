@@ -27,13 +27,13 @@ class LandingPage extends Component {
                 {/* attributes */}
                 <ul className="home-attributes">
                     <li>
-                        <Link to="/resume">Cloud Developer.</Link>
-                    </li>
-                    <li>
-                        <Link to="/resume">Violinist.</Link>
+                        <Link to="/resume">Web Developer.</Link>
                     </li>
                     <li>
                         <Link to="/resume">Pythonista.</Link>
+                    </li>
+                    <li>
+                        <Link to="/resume">Violinist.</Link>
                     </li>
                 </ul>
 

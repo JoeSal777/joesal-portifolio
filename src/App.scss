@@ -8,7 +8,8 @@
   --mainLight:#f3f3f3;
   --mainDark:#19202A;
   --primaryFont: 'Nunito', sans-serif;
-  --secondaryFont: 'Tangerine', cursive;
+  --secondaryFont: 'Poiret One', cursive;
+  --tertiaryFont: 'Poiret One', cursive;
 }
 
 @import "./styles/_fonts.scss";
@@ -239,17 +240,17 @@ button:focus {
   color: var(--secondaryColor);
   margin-top: 25px;
 }
-// .home-attributes a{
-//   color: var(--secondaryColor);
-//   opacity: 60%;
-//   transition-duration: 0.8s;
-//   text-decoration: none;
-//   @include standardFonts();
-// }
-// .home-attributes a:hover{
-//   color: var(--lightAccentColor);
-//   opacity: 100%;
-// }
+.home-attributes a{
+  color: var(--secondaryColor);
+  opacity: 60%;
+  transition-duration: 0.8s;
+  text-decoration: none;
+  @include standardFonts();
+}
+.home-attributes a:hover{
+  color: var(--lightAccentColor);
+  opacity: 100%;
+}
 // .home-attributes li{
 //   margin-left: 0.5rem;
 //   margin-right: 0.5rem;
