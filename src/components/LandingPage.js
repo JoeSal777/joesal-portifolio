@@ -25,7 +25,7 @@ class LandingPage extends Component {
                 </div>
 
                 {/* attributes */}
-                <ul className="home-attributes">
+                <ul className="home-attributees">
                     <li>
                         <Link to="/resume">Cloud Developer.</Link>
                     </li>
