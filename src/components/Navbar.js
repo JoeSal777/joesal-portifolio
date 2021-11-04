@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import logo from '../logoblue.jpg';
 //import {FaAlignRight} from "react-icons/fa";
-//import {FiMail} from "react-icons/fi";
+import {FiMail} from "react-icons/fi";
 import {Link} from "react-router-dom"; 
 
 
 class Navbar extends Component {
     
-    // state={
-    //     isOpen: false
-    // }
-    // handleToggle = () =>{
-    //     this.setState({isOpen:!this.state.isOpen})
-    // }
+    state={
+        isOpen: false
+    }
+    handleToggle = () =>{
+        this.setState({isOpen:!this.state.isOpen})
+    }
     render() {
         return (
             <nav className="navbar">
@@ -38,21 +38,21 @@ class Navbar extends Component {
                     </div>
 
                     {/* For nav menu */}
-                    {/* <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
+                    <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
                         <li>
                             <Link to="/resume">Resume.</Link>
                         </li>
                         <li>
                             <Link to="/projects">Projects.</Link>
                         </li>
-                    </ul> */}
+                    </ul>
 
                     {/* For contact me icon in nav-bar */}
-                    {/* <Link to="/contact" className="nav-btn-big-screen">
+                    <Link to="/contact" className="nav-btn-big-screen">
                         <button type="button">
                             <FiMail className="Nav-icon" />   
                         </button>
-                    </Link> */}
+                    </Link>
 
                 </div>
             </nav>
