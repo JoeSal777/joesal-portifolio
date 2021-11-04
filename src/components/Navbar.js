@@ -16,10 +16,10 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar">
+                <div className="nav-center">
                 <div>
-                <h3>hello from the navbar us page</h3>
-                </div>
-                {/* <div className="nav-center"> */}
+                <h3>hello from the Default us page</h3>
+            </div>
                     {/* <div className="nav-header"> */}
 
                         {/* For logo */}
@@ -57,7 +57,7 @@ class Navbar extends Component {
                         </button>
                     </Link> */}
 
-                {/* </div> */}
+                </div>
             </nav>
         );
     }
