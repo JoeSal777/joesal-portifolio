@@ -17,11 +17,10 @@ class Navbar extends Component {
         return (
             <nav className="navbar">
                 <div className="nav-center">
-                <div>
-                <h3>hello from the Default us page</h3>
-            </div>
-                    {/* <div className="nav-header"> */}
-
+                    <div className="nav-header">
+                        <div>
+                            <h3>hello from the  page</h3>
+                        </div>
                         {/* For logo */}
                         {/* <Link to="/">
                             <img src={logo} alt="Joseph Larkai Logo" />
@@ -37,8 +36,8 @@ class Navbar extends Component {
                         {/* For menu icon in mobile view */}
                         {/* <button type="button" className="nav-btn-small-screen" onClick={this.handleToggle}>
                             <FaAlignRight className="Nav-icon" />   
-                        </button> 
-                    </div> */}
+                        </button>  */}
+                    </div>
 
                     {/* For nav menu */}
                     {/* <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
