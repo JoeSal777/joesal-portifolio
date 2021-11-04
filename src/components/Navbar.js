@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../logoblue.jpg';
-//import {FaAlignRight} from "react-icons/fa";
+import {FaAlignRight} from "react-icons/fa";
 import {FiMail} from "react-icons/fi";
 import {Link} from "react-router-dom"; 
 
@@ -25,16 +25,16 @@ class Navbar extends Component {
                         </Link>
 
                         {/* For contact-me icon in mobile view */}
-                        {/* <Link to="/contact" className="nav-btn-small-screen">
+                        <Link to="/contact" className="nav-btn-small-screen">
                             <button type="button">
                                 <FiMail className="Nav-icon" />   
                             </button>
-                        </Link> */}
+                        </Link>
 
                         {/* For menu icon in mobile view */}
-                        {/* <button type="button" className="nav-btn-small-screen" onClick={this.handleToggle}>
+                        <button type="button" className="nav-btn-small-screen" onClick={this.handleToggle}>
                             <FaAlignRight className="Nav-icon" />   
-                        </button>  */}
+                        </button> 
                     </div>
 
                     {/* For nav menu */}
