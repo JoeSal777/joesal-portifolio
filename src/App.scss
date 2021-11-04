@@ -247,14 +247,14 @@ button:focus {
   text-decoration: none;
   @include standardFonts();
 }
-.home-attributes a:hover{
-  color: var(--lightAccentColor);
-  opacity: 100%;
-}
-// .home-attributes li{
+// .home-attributes a:hover{
+//   color: var(--lightAccentColor);
+//   opacity: 100%;
+// }
+// .home-attributes li{      //this is for when inline-ness is activated
 //   margin-left: 0.5rem;
 //   margin-right: 0.5rem;
-//}
+// }
 /* end of attribute list */
 .landingPage_buttom{
   position: absolute;
