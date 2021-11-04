@@ -233,27 +233,27 @@ button:focus {
   margin: 0rem;
   padding: 0rem;
   list-style-type: none;
-  // display: block;
-  // text-align: center;
-  // justify-content: center;
-  // color: var(--secondaryColor);
-  // margin-top: 25px;
-}
-.home-attributes a{
+  display: block;
+  text-align: center;
+  justify-content: center;
   color: var(--secondaryColor);
-  opacity: 60%;
-  transition-duration: 0.8s;
-  text-decoration: none;
-  @include standardFonts();
+  margin-top: 25px;
 }
-.home-attributes a:hover{
-  color: var(--lightAccentColor);
-  opacity: 100%;
-}
-.home-attributes li{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
+// .home-attributes a{
+//   color: var(--secondaryColor);
+//   opacity: 60%;
+//   transition-duration: 0.8s;
+//   text-decoration: none;
+//   @include standardFonts();
+// }
+// .home-attributes a:hover{
+//   color: var(--lightAccentColor);
+//   opacity: 100%;
+// }
+// .home-attributes li{
+//   margin-left: 0.5rem;
+//   margin-right: 0.5rem;
+//}
 /* end of attribute list */
 .landingPage_buttom{
   position: absolute;
@@ -276,10 +276,10 @@ button:focus {
   .title h1{
     font-size: 2em;
   }
-  .home-attributes{
-    display: flex;
-    line-height: 200%;
-  }
+  // .home-attributes{
+  //   display: flex;
+  //   line-height: 200%;
+  // }
   .landingPage_buttom{
     background: var(--mainDark) !important;
   } 
