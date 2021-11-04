@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-//import logo from '../logoblue.jpg';
+import logo from '../logoblue.jpg';
 //import {FaAlignRight} from "react-icons/fa";
 //import {FiMail} from "react-icons/fi";
-//import {Link} from "react-router-dom"; 
+import {Link} from "react-router-dom"; 
 
 
 class Navbar extends Component {
@@ -18,13 +18,11 @@ class Navbar extends Component {
             <nav className="navbar">
                 <div className="nav-center">
                     <div className="nav-header">
-                        <div>
-                            <h3>hello from the space between</h3>
-                        </div>
+                        
                         {/* For logo */}
-                        {/* <Link to="/">
+                        <Link to="/">
                             <img src={logo} alt="Joseph Larkai Logo" />
-                        </Link> */}
+                        </Link>
 
                         {/* For contact-me icon in mobile view */}
                         {/* <Link to="/contact" className="nav-btn-small-screen">
