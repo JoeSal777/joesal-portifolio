@@ -19,17 +19,20 @@ class Navbar extends Component {
                 <div className="nav-center">
                     <div className="nav-header">
                         
-                        {/* For logo */}
-                        <Link to="/">
-                            <img src={logo} alt="Joseph Larkai Logo" />
-                        </Link>
-
                         {/* For contact-me icon in mobile view */}
                         <Link to="/contact" className="nav-btn-small-screen">
                             <button type="button">
                                 <FiMail className="Nav-icon" />   
                             </button>
                         </Link>
+                        
+                        
+                        {/* For logo */}
+                        <Link to="/">
+                            <img src={logo} alt="Joseph Larkai Logo" />
+                        </Link>
+
+                        
 
                         {/* For menu icon in mobile view */}
                         <button type="button" className="nav-btn-small-screen" onClick={this.handleToggle}>
