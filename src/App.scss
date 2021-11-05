@@ -192,7 +192,7 @@ button:focus {
 /* *********************************************************************** */
 
 /* Landing Page*/
-.landingPage_main_area, .contactPage_main_area{
+.landingPage_main_area, .contactPage_main_area, .errorPage_main_area{
   background: var(--primaryColor);  /* fallback for old browsers */
   position: relative;
   top: 0;
@@ -203,8 +203,12 @@ button:focus {
   height: 92vh;
 }
 
-.landingPage_main_area{
+.landingPage_main_area, .errorPage_main_area{
   border-radius: 0.5rem;
+}
+
+.errorPage_main_area{
+  background-color: #222730;
 }
 
 /* Image */
