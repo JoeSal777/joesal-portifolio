@@ -277,10 +277,10 @@ button:focus {
   .title h1{
     font-size: 2em;
   }
-  // .home-attributes{
-  //   display: flex;
-  //   line-height: 200%;
-  // }
+  .home-attributes{
+  //  display: flex;   //makes attribute appear inline for pc view
+    line-height: 200%;
+  }
   .landingPage_buttom{
     background: var(--mainDark) !important;
   } 
