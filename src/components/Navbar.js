@@ -53,7 +53,7 @@ class Navbar extends Component {
                     {/* For contact me icon in nav-bar */}
                     <Link to="/contact" className="nav-btn-big-screen">
                         <button type="button">
-                            <FiMail className="Nav-icon" />   
+                            <FiMail className="Nav-icon" />  
                         </button>
                     </Link>
 

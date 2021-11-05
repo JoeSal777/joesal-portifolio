@@ -14,6 +14,8 @@
 }
 
 @import "./styles/_fonts.scss";
+@import "./styles/_background.scss";
+@import "./styles/_resume.scss";
 @import "./styles/_contact.scss";
 @import "./styles/_effects.scss";
 
@@ -49,7 +51,7 @@ body::-webkit-scrollbar {
 
 // Navbar
 .navbar {
-  //position: relative;
+  //position: fixed;
   //top: 0;
   //left: 0 !important;
   margin: 0px !important;
@@ -193,6 +195,7 @@ button:focus {
 
 /* Landing Page*/
 .landingPage_main_area, .contactPage_main_area, .errorPage_main_area{
+  all: revert;
   background: var(--primaryColor);  /* fallback for old browsers */
   position: relative;
   top: 0;
