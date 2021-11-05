@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import young_developer from "../images/young_developer2.png";
 import {Link} from "react-router-dom"; 
 
+import {FaConnectdevelop} from "react-icons/fa";
+
 //import "../styles/homeBackground.js"
 
 class LandingPage extends Component {
@@ -27,7 +29,7 @@ class LandingPage extends Component {
                 {/* attributes */}
                 <ul className="home-attributes">
                     <li>
-                        <Link to="/resume">Web Developer.</Link>
+                        <Link to="/resume"><FaConnectdevelop/>Web Developer.</Link>
                     </li>
                     <li>
                         <Link to="/resume">Pythonista.</Link>
