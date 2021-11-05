@@ -1,6 +1,7 @@
 :root{
   --primaryColor:#000000;
   --secondaryColor:#cdc3ff;
+  --lightSecondaryColor:#918cac;
   --accentColor: rgb(43, 0, 255);
   --lightAccentColor: #9884fc;
   --secondaryAccentColor: #990000;
@@ -241,15 +242,13 @@ button:focus {
   margin-top: 25px;
 }
 .home-attributes a{
-  color: var(--secondaryColor);
-  //opacity: 60%;
+  color: var(--lightSecondaryColor);
   transition-duration: 0.8s;
   text-decoration: none;
   @include standardFonts();
 }
 .home-attributes a:hover{
   color: var(--lightAccentColor);
-  //opacity: 100%;
 }
 .home-attributes li{      //this is for when inline-ness is activated
   margin-left: 0.5rem;
@@ -277,10 +276,10 @@ button:focus {
   .title h1{
     font-size: 2em;
   }
-  .home-attributes{
-  //  display: flex;   //makes attribute appear inline for pc view
-    line-height: 200%;
-  }
+  // .home-attributes{
+  //   display: flex;
+  //   line-height: 200%;
+  // }
   .landingPage_buttom{
     background: var(--mainDark) !important;
   } 
