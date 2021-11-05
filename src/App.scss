@@ -240,13 +240,13 @@ button:focus {
   color: var(--secondaryColor);
   margin-top: 25px;
 }
-.home-attributes a{
-  color: var(--secondaryColor);
-  opacity: 60%;
-  transition-duration: 0.8s;
-  text-decoration: none;
-  @include standardFonts();
-}
+// .home-attributes a{
+//   color: var(--secondaryColor);
+//   opacity: 60%;
+//   transition-duration: 0.8s;
+//   text-decoration: none;
+//   @include standardFonts();
+// }
 // .home-attributes a:hover{
 //   color: var(--lightAccentColor);
 //   opacity: 100%;
