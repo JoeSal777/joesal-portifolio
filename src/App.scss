@@ -203,6 +203,10 @@ button:focus {
   height: 92vh;
 }
 
+.landingPage_main_area{
+  border-radius: 0.5rem;
+}
+
 /* Image */
 .young_developer_img{
   padding-top: 70px;
@@ -223,7 +227,6 @@ button:focus {
   letter-spacing: 0.3rem;
   text-transform: uppercase;
   text-align: center;
-  // opacity: 70%;
 }
 .title h1{
   font-size: 1.8em !important;
@@ -255,20 +258,20 @@ button:focus {
   margin-right: 0.5rem;
 }
 /* end of attribute list */
-.landingPage_buttom{
-  position: absolute;
-  width: 100%;
-  bottom: 0px;
-  //background: var(--primaryColor);  //would serve for mobile and tablet views if activated
-  text-align: center;
-  height: 8vh;
-  //line-height: 8vh;
-}
+// .landingPage_buttom{
+//   position: absolute;
+//   width: 100%;
+//   bottom: 0px;
+//   //background: var(--primaryColor);  //would serve for mobile and tablet views if activated
+//   text-align: center;
+//   height: 8vh;
+//   //line-height: 8vh;
+// }
 @media screen and (min-width: 768px) {
   .landingPage_main_area{
     margin-left: 50px;
     margin-right: 50px;
-    height: 92vh !important;
+    height: 84vh !important;
   }
   .title-wrapper{
     margin: 1rem 2rem;
