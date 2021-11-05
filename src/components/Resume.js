@@ -9,7 +9,9 @@ export default class Resume extends Component {
 
                     {/* left-side */}
                     <div className="column left-column">
-                        hello from text area
+                        <div className="formArea">
+                            <h2 className="heading">Hi, I'm Joseph Salem.</h2>
+                        </div>
                     </div>
 
                     {/* right-side */}
