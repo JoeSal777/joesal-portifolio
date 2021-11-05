@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import young_developer from "../images/young_developer2.png";
 import {Link} from "react-router-dom"; 
 
-import {FaConnectdevelop} from "react-icons/fa";
+import {BsCodeSlash} from "react-icons/bs";
+import {DiPython} from "react-icons/di";
+import {GiViolin} from "react-icons/gi";
 
 //import "../styles/homeBackground.js"
 
@@ -29,13 +31,13 @@ class LandingPage extends Component {
                 {/* attributes */}
                 <ul className="home-attributes">
                     <li>
-                        <Link to="/resume"><FaConnectdevelop/>Web Developer.</Link>
+                        <Link to="/resume"><BsCodeSlash className="attribute-icon"/>Web Developer.</Link>
                     </li>
                     <li>
-                        <Link to="/resume">Pythonista.</Link>
+                        <Link to="/resume"><DiPython className="attribute-icon"/>Pythonista.</Link>
                     </li>
                     <li>
-                        <Link to="/resume">Violinist.</Link>
+                        <Link to="/resume"><GiViolin className="attribute-icon"/>Violinist.</Link>
                     </li>
                 </ul>
 
