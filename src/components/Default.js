@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 //import "../styles/homeBackground.js"
 
-class LandingPage extends Component {
+class Default extends Component {
     render(){
         return(
 
@@ -13,7 +13,9 @@ class LandingPage extends Component {
                 {/* featured image */}
                 <div className="image-wrapper">
                     <div className="young_developer_img">
-                        <img src={image404} className="img-fluid" alt="Joseph Larkai" />
+                        <a href="https://lovepik.com/images/png-404.html">
+                            <img src={image404} className="img-fluid" alt="Joseph Larkai" />
+                        </a>
                     </div>
                 </div>
 
@@ -27,7 +29,7 @@ class LandingPage extends Component {
                 {/* attributes */}
                 <ul className="home-attributes">
                     <li>
-                        <Link to="/">You may want to check if you've entered in the right address</Link>
+                        <Link to="#">You may want to check if you've entered in the right address</Link>
                     </li>
                     <li>
                         <Link to="/">return home.</Link>
@@ -46,4 +48,4 @@ class LandingPage extends Component {
     }
 }
 
-export default LandingPage;
+export default Default;
