@@ -14,7 +14,8 @@
 }
 
 @import "./styles/_fonts.scss";
-@import "./styles/_background.scss";
+@import "./styles/_rippleBackground.scss";
+@import "./styles/_noiseBackground.scss";
 @import "./styles/_resume.scss";
 @import "./styles/_contact.scss";
 @import "./styles/_effects.scss";
@@ -204,6 +205,7 @@ button:focus {
   margin-left: 0rem;
   margin-right: 0rem;
   height: 92vh;
+  overflow: hidden;
 }
 
 .landingPage_main_area, .errorPage_main_area{

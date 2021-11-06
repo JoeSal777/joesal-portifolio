@@ -1,10 +1,12 @@
+$noise-img: url('../images/noise-transparent.png');
+
 body {
     background-color: #111111;
     margin: 0;
     overflow-x: hidden;
   }
   
-  .bg {
+  .bg-noise {
     position: fixed;
     top: -50%;
     left: -50%;
@@ -12,9 +14,9 @@ body {
     bottom: -50%;
     width: 200%;
     height: 200vh;
-    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background: transparent $noise-img repeat 0 0;
     background-repeat: repeat;
-    animation: bg-animation .2s infinite;
+    animation: bg-animation .5s infinite;
     opacity: .9;
     visibility: visible;
   }

@@ -11,9 +11,17 @@ import {GiViolin} from "react-icons/gi";
 class LandingPage extends Component {
     render(){
         return(
-
+            
             <div className="landingPage_main_area">
 
+                <div className="ripple-background">
+                    <div className="circle xxlarge shade1"/>
+                    <div className="circle xlarge shade2"/>
+                    <div className="circle large shade3"/>
+                    <div className="circle medium shade4"/>
+                    <div className="circle small shade5" />
+                </div>
+                
                 {/* featured image */}
                 <div className="image-wrapper">
                     <div className="young_developer_img">
@@ -24,6 +32,7 @@ class LandingPage extends Component {
                 {/* title */}
                 <div className="title-wrapper tittle-element">
                     <div className="title">
+                        
                         <h1>Joseph Salem Mensah-Larkai</h1>
                     </div>
                 </div>
@@ -41,11 +50,6 @@ class LandingPage extends Component {
                     </li>
                 </ul>
 
-                {/* Put city stencil design here */}
-
-                <div className="landingPage_buttom">
-                    {/* <ProgressBar className="landing_page_progressBar" progress={0} buffer={0} /> */}
-                </div>
             </div>
 
             
