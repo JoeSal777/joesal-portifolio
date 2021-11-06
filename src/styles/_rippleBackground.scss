@@ -2,69 +2,57 @@ body{
     overflow: hidden !important;
   }
   
-  
-  .circle{
+  @mixin backgroundCircle{
     position: absolute;
+    //z-index: -1;
     border-radius: 50%;
-    background: #ffffff;
     animation: ripple 15s infinite;
-    box-shadow: 0px 0px 1px 0px #d2d2d6;
-    opacity: .1;
-  }
+    border: 100px solid #202024;
+    box-shadow: 0px 0px 0px 0px #131313;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    }
   
-  .small{
-    width: 200px;
-    height: 200px;
-    //left: -100px;
-    //bottom: 100px;
-  }
-  
-  .medium{
-    width: 400px;
-    height: 400px;
-    left: -200px;
-    bottom: 0px;
-  }
-  
-  .large{
-    width: 600px;
-    height: 600px;
-    left: -300px;
-    bottom: -100px;
-  }
-  
-  .xlarge{
+  .small-circle{
+    @include backgroundCircle();
     width: 800px;
     height: 800px;
-    left: -400px;
-    bottom: -200px;
-  }
-  
-  .xxlarge{
-    width: 1000px;
-    height: 1000px;
-    left: -500px;
-    bottom: -300px;
-  }
-  
-  .shade1{
     opacity: 0.2;
   }
-  .shade2{
-    opacity: 0.5;
+  
+  .medium-circle{
+    @include backgroundCircle();
+    width: 1000px;
+    height: 1000px;
+    border: 100px solid #09090a;
   }
   
-  .shade3{
-    opacity: 0.7;
+  .large-circle{
+    @include backgroundCircle();
+    width: 1200px;
+    height: 1200px;
+    border: 100px solid #0a0a0a;
   }
   
-  .shade4{
-    opacity: 0.8;
+  .xlarge-circle{
+    @include backgroundCircle();
+    width: 1400px;
+    height: 1400px;
+    // border: 200px solid
+  }
+  .xxlarge-circle{
+    @include backgroundCircle();
+    width: 1600px;
+    height: 1600px;
+    visibility: hidden !important;
   }
   
-  .shade5{
-    //opacity: .9
-  }
   
   @keyframes ripple{
     0%{

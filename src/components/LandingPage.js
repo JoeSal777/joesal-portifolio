@@ -14,12 +14,12 @@ class LandingPage extends Component {
             
             <div className="landingPage_main_area">
 
-                <div className="ripple-background">
-                    <div className="circle xxlarge shade1"/>
-                    <div className="circle xlarge shade2"/>
-                    <div className="circle large shade3"/>
-                    <div className="circle medium shade4"/>
-                    <div className="circle small shade5" />
+                <div className="ripplejkn-background">
+                    {/* <div className="xxlarge-circle shade5"/> */}
+                    {/* <div className="xlarge-circle shade4"/> */}
+                    <div className="large-circle shade3"/>
+                    <div className="medium-circle shade2"/>
+                    <div className="small-circle shade1" />
                 </div>
                 
                 {/* featured image */}
