@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ContactForm from "./ContactForm";
-import ContactSocialButtons from './ContactSocialButtons';
+import ContactForm from "./page-components/ContactForm";
+import ContactSocialButtons from './page-components/ContactSocialButtons';
 
 export default class Contact extends Component {
     render() {
