@@ -13,6 +13,9 @@
     @include landingPage_body();
     height: 92vh;
     overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 84vh !important;
   }
   
   .landingPage_main_area, .errorPage_main_area{
