@@ -1,8 +1,9 @@
 @import "./_fonts.scss";
 @import "./_effects.scss";
-
+@import "./_landingPage.scss";
 
 .resumePage_main_area{
+    @include landingPage_body();
     color: var(--secondaryColor);
     background: transparent !important;
     height: auto !important;
@@ -15,7 +16,7 @@
         width: 100%;
     }
     .left-column{
-        background-color: #222730;
+        background: #222730;
         padding: 7%;
 
         .infoArea{

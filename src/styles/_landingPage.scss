@@ -1,4 +1,4 @@
-.landingPage_main_area, .contactPage_main_area, .errorPage_main_area{
+@mixin landingPage_body{
     all: revert;
     background: var(--primaryColor);  /* fallback for old browsers */
     position: relative;
@@ -7,6 +7,10 @@
     margin-top: 0rem;
     margin-left: 0rem;
     margin-right: 0rem;
+}
+
+.landingPage_main_area, .errorPage_main_area{
+    @include landingPage_body();
     height: 92vh;
     overflow: hidden;
   }

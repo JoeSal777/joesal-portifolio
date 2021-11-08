@@ -1,9 +1,10 @@
 @import "./_fonts.scss";
 @import "./_effects.scss";
-
+@import "./_landingPage.scss";
 
 .contactPage_main_area{
     color: var(--secondaryColor);
+    @include landingPage_body();
     background: transparent !important;
     height: auto !important;
     .row{
@@ -15,7 +16,7 @@
         width: 100%;
     }
     .left-column{
-        background-color: #222730;
+        background: #222730;
         padding: 7%;
 
         .formArea{
