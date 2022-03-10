@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import IconInfoBox from "./page-components/iconInfoBox";
 
 import {FaUniversity} from "react-icons/fa";
+// import {FaUniversity} from "react-icons/fa";
 
 export default class Resume extends Component {
     render() {
@@ -20,14 +21,32 @@ export default class Resume extends Component {
                             <div className="infoArea resume_content">
                                 <div className="info-item">
                                     <h2 className="heading">Hi, I'm Joseph Salem.</h2>
-                                    <p>A freelance web developer and designer, passionate about data science, technology in general and music.</p>
+                                    <p>A freelance web developer and designer, with a keen interest in technology and user experience.
+                                        I'm all about the use and furthering of my analytical and problem solving skills in a practical
+                                        environment, contributing to the resolutions of existing problems and making a meaningful 
+                                        impact in a world of evolving technologies.
+                                    </p>
                                 </div>
 
-                                <div className="info-item history-area">
-                                    <div className="history-item">
-                                        <FaUniversity className="history-icon"/>
-                                        <IconInfoBox title={"University of Ghana"} text={"BSc Mathematics"}/>
+                                <div className="info-item history-area education">                                    
+                                    <FaUniversity className="history-icon"/>
+                                    <div className="history-items">
+                                        <div className="history-item">
+                                            <IconInfoBox title={"University of Ghana"} text={"BSc Mathematics"}/>
+                                        </div>
                                     </div>
+                                </div>
+
+                                <div className="info-item history-area work">
+                                    <FaUniversity className="history-icon"/>
+                                    <div className="history-items">
+                                        <div className="history-item">
+                                            <IconInfoBox title={"Phoenix Life Assurance"} text={"Insurance Officer"}/>
+                                        </div>
+                                        <div className="history-item">
+                                            <IconInfoBox title={"Phoenix Life Assurance"} text={"Insurance Officer"}/>
+                                        </div>
+                                    </div>                                  
                                 </div>
                             </div>
                         </div>
