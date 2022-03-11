@@ -76,6 +76,15 @@
             // display: flex;
             // flex-direction: column;
             //justify-content: space-between !important;
+
+            .history-area{
+                clear: both;  //makes sure the float below only affects elements within the history-area class but not without
+                padding-top: 20px;
+            }
+
+            .info-item-history{
+                float: left;
+            }
         }
     }
 

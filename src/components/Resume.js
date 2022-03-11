@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import IconInfoBox from "./page-components/iconInfoBox";
 
 import {FaUniversity} from "react-icons/fa";
-// import {FaUniversity} from "react-icons/fa";
+import {MdOutlineWorkOutline} from "react-icons/md";
+//import {MdWork} from "react-icons/md";
 
 export default class Resume extends Component {
     render() {
@@ -28,9 +29,11 @@ export default class Resume extends Component {
                                     </p>
                                 </div>
 
-                                <div className="info-item history-area education">                                    
-                                    <FaUniversity className="history-icon"/>
-                                    <div className="history-items">
+                                <div className="info-item history-area education">   
+                                    <div className='history-icon-area info-item-history'>                                 
+                                        <FaUniversity className="history-icon"/>
+                                    </div>
+                                    <div className="info-item-history history-items">
                                         <div className="history-item">
                                             <IconInfoBox title={"University of Ghana"} text={"BSc Mathematics"}/>
                                         </div>
@@ -38,8 +41,10 @@ export default class Resume extends Component {
                                 </div>
 
                                 <div className="info-item history-area work">
-                                    <FaUniversity className="history-icon"/>
-                                    <div className="history-items">
+                                    <div className='history-icon-area info-item-history'> 
+                                        <MdOutlineWorkOutline className="history-icon"/>
+                                    </div>
+                                    <div className="info-item-history history-items">
                                         <div className="history-item">
                                             <IconInfoBox title={"Phoenix Life Assurance"} text={"Insurance Officer"}/>
                                         </div>
