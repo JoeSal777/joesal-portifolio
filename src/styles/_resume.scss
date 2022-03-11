@@ -32,6 +32,10 @@
             background-color: var(--mainDark);
             //for more css on this section, check for css on the iconInfoBox component
         }
+        .history-items a{
+            text-decoration: none;
+            color: inherit;
+        }
     }
     .resume_right-column{
         background: transparent;
