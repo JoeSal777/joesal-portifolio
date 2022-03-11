@@ -27,6 +27,10 @@
 
         .history-item{
             border-left: 1px solid var(--secondaryColor);
+            margin-bottom: 15px;
+            padding: 5px 5px 5px 15px;
+            background-color: var(--mainDark);
+            //for more css on this section, check for css on the iconInfoBox component
         }
     }
     .resume_right-column{
@@ -64,26 +68,33 @@
         padding-right: 50px;
         padding-top: 30px;
         padding-bottom: 30px;
-        //display: flex;
-        //align-items: center;
 
         .infoArea{
             width: 100%;
             height: 100%;
-            padding-top: 7%;
+            padding-top: 3%;
             padding-bottom: 7%;
             padding-left: 7%;
             // display: flex;
             // flex-direction: column;
             //justify-content: space-between !important;
 
-            .history-area{
-                clear: both;  //makes sure the float below only affects elements within the history-area class but not without
-                padding-top: 20px;
+            .history-icon{
+                font-size: 30px;
             }
 
+            .history-area{
+                clear: both;  //makes sure the float below only affects elements within the history-area class but not without
+                padding-top: 15px;
+            }
             .info-item-history{
                 float: left;
+            }
+            .history-icon-area{
+                width: 10% !important;
+            }
+            .history-items{
+                width: 90% !important;
             }
         }
     }

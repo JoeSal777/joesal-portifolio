@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-// This is CSS for the cart button using 'styled-components'
+// This is CSS for the buttons using 'styled-components'
 export const ButtonContainer = styled.button`
 text-transform: capitalize;
 font-size: 1em;
