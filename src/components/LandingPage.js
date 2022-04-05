@@ -43,13 +43,13 @@ class LandingPage extends Component {
                     {/* attributes */}
                     <ul className="home-attributes">
                         <li>
-                            <Link to="/resume"><BsCodeSlash className="attribute-icon"/>Web Developer.</Link>
-                        </li>
-                        <li>
                             <Link to="/resume"><DiPython className="attribute-icon"/>Pythonista.</Link>
                         </li>
                         <li>
-                            <Link to="/resume"><GiViolin className="attribute-icon"/>Violinist.</Link>
+                            <Link to="/resume"><BsCodeSlash className="attribute-icon"/>Web Developer.</Link>
+                        </li>
+                        <li>
+                            <Link to="/resume"><GiViolin className="attribute-icon"/>Data Scientist.</Link>
                         </li>
                     </ul>
 
