@@ -12,8 +12,8 @@ const language_list = [
     {advanced: 'Python', intermediate: 'Java', basic: 'C++'  },
     {advanced: 'Adobe Photoshop', intermediate: 'JavaScript', basic: 'C'  },
     {advanced: 'Microsoft Excel', intermediate: 'PHP', basic: 'Maya'  },
-    {advanced: 'Wordpress', intermediate: 'React', basic: ''  },
-    {advanced: '', intermediate: 'Audacity', basic: ''  }
+    {advanced: 'Wordpress', intermediate: 'React', basic: 'Vue.js'  },
+    {advanced: 'HTML | CSS | SCSS', intermediate: 'Audacity', basic: 'GCP'  }
 ]
 const colNames = ['Advanced', 'Intermediate', 'Basic']
 
@@ -88,10 +88,13 @@ export default class Resume extends Component {
                                     </div>
                                 </div>
                                 <div className='ts_section'>
-                                    <p>Problem Solving</p>
+                                    <p>Problem Solving (Algorithms)</p>
                                 </div>
                                 <div className='ts_section'>
-                                    <p>Data Science</p>
+                                    <p>Data Science (Geospatial Data)</p>
+                                </div>
+                                <div className='ts_section'>
+                                    <p>Web Scrapping</p>
                                 </div>
                             </div>
                         </div>
