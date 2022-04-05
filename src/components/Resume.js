@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
 
 import IconInfoBox from "./page-components/iconInfoBox";
+import Table from "./page-components/Table.js";
 
 import {FaUniversity} from "react-icons/fa";
 import {MdOutlineWorkOutline} from "react-icons/md";
 //import {MdWork} from "react-icons/md";
+
+//list for table in skills section
+const language_list = [
+    {advanced: 'Python', intermediate: 'Java', basic: 'C++'  },
+    {advanced: 'Adobe Photoshop', intermediate: 'JavaScript', basic: 'C'  },
+    {advanced: 'Microsoft Excel', intermediate: 'PHP', basic: 'Maya'  },
+    {advanced: 'Wordpress', intermediate: 'React', basic: ''  },
+    {advanced: '', intermediate: 'Audacity', basic: ''  }
+]
+const colNames = ['Advanced', 'Intermediate', 'Basic']
 
 export default class Resume extends Component {
     render() {
@@ -34,7 +45,7 @@ export default class Resume extends Component {
                                         <FaUniversity className="history-icon"/>
                                     </div>
                                     <div className="info-item-history history-items">
-                                        <a href="https://www.ug.edu.gh/" target="_blank">
+                                        <a href="https://www.ug.edu.gh/" target="_blank" rel="noreferrer">
                                             <div className="history-item">
                                                 <IconInfoBox title={"University of Ghana · Undergrad · 2013-2017"} text={"BSc Mathematics"}/>
                                             </div>
@@ -47,12 +58,12 @@ export default class Resume extends Component {
                                         <MdOutlineWorkOutline className="history-icon"/>
                                     </div>
                                     <div className="info-item-history history-items">
-                                        <a href="https://assurance.cdhgroup.co/" target="_blank">
+                                        <a href="https://assurance.cdhgroup.co/" target="_blank" rel="noreferrer">
                                             <div className="history-item">
                                                 <IconInfoBox title={"Phoenix Life Assurance · Intern · 2016"} text={"Insurance Officer"}/>
                                             </div>
                                         </a>
-                                        <a href="http://gema.gov.gh/" target="_blank">
+                                        <a href="http://gema.gov.gh/" target="_blank" rel="noreferrer">
                                             <div className="history-item">
                                                 <IconInfoBox title={"Ga-East Municipal Assembly · National Service personnel · 2017-2018"} text={"Ass. Budget Officer"}/>
                                             </div>
@@ -67,7 +78,22 @@ export default class Resume extends Component {
 
                         {/* right-side */}
                         <div className="resume_column resume_right-column">
-                            
+                            <div className="techArea resume_content">
+                                <div className='techinical_skills_heading'>
+                                    <h4>Technical Skills</h4>
+                                </div>
+                                <div className='ts_section'>
+                                    <div className='ts_table_section'>
+                                        <Table list={language_list} colNames={colNames}/>
+                                    </div>
+                                </div>
+                                <div className='ts_section'>
+                                    <p>Problem Solving</p>
+                                </div>
+                                <div className='ts_section'>
+                                    <p>Data Science</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 

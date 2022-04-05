@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 import {BsCodeSlash} from "react-icons/bs";
 import {DiPython} from "react-icons/di";
-import {GiViolin} from "react-icons/gi";
+import {GiMaterialsScience} from "react-icons/gi";
 
 //import "../styles/homeBackground.js"
 
@@ -46,10 +46,10 @@ class LandingPage extends Component {
                             <Link to="/resume"><DiPython className="attribute-icon"/>Pythonista.</Link>
                         </li>
                         <li>
-                            <Link to="/resume"><BsCodeSlash className="attribute-icon"/>Web Developer.</Link>
+                            <Link to="/resume"><GiMaterialsScience className="attribute-icon"/>Data Scientist.</Link>
                         </li>
                         <li>
-                            <Link to="/resume"><GiViolin className="attribute-icon"/>Data Scientist.</Link>
+                            <Link to="/resume"><BsCodeSlash className="attribute-icon"/>Web Developer.</Link>
                         </li>
                     </ul>
 

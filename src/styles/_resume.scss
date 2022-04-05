@@ -39,8 +39,8 @@
     }
     .resume_right-column{
         background: transparent;
-        display: flex;
-        align-items: center;
+        //display: flex;
+        //align-items: center;
         width: 100%;
         margin-top: 40px;
     }
@@ -104,13 +104,28 @@
     }
 
 
-    .right-column{
+    .resume_right-column{
         height: 82vh;
-        padding: 30px;
-        display: flex;
-        align-items: center;
+        padding-left: 50px;
+        //display: flex;
+        //align-items: center;
         width: 100%;
-        margin-top: 0px !important;   
+        margin-top: 40px !important; 
+
+        .ts_section{
+            background: #222730;
+            padding: 10px 20px 10px 20px;
+            margin-top: 3px;
+            //margin-bottom: 3px;
+        }
+        .ts_section p{
+            font-size: 14px;
+        }
+            .ts_table_section{
+                background-color: var(--mainDark);
+                padding: 20px;
+            }
+         
     }
     
 }
