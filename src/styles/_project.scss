@@ -1,0 +1,17 @@
+.projectArea{
+    all: revert;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background-color: black;
+    width: 30%;
+  }
+
+
+  //pc screen
+  @media screen and (min-width: 768px) {
+    .projectSection_area{
+      margin-left: 50px;
+      margin-right: 50px;
+      //height: 84vh !important;
+    }
+  }

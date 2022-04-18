@@ -1,0 +1,19 @@
+.projectsPage_main_area{
+    all: revert;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 84vh !important;
+    border-radius: 0.5rem;
+    background-color: transparent;
+  }
+
+
+  //pc screen
+  @media screen and (min-width: 768px) {
+    .projectsPage_main_area{
+      margin-left: 50px;
+      margin-right: 50px;
+      //height: 84vh !important;
+    }
+  }

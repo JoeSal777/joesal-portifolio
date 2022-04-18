@@ -4,8 +4,12 @@ function iconInfoBox(props){
     return(
         <div className="iconInfo_area">
             <div className="text-area-iconInfo">
-                { props.title && <p className="title-iconInfo">{props.title}</p> }
-                { props.text && <p className="text-iconInfo">{props.text}</p> }
+                <p className="title-iconInfo">
+                    <b>{props.role}</b>&ensp;·&ensp;
+                    {props.institution}&ensp;·&ensp; 
+                    {props.designation}&ensp;·&ensp; 
+                    {props.timeline}
+                </p>
             </div>
         </div> 
     );

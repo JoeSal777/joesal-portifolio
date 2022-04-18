@@ -35,7 +35,7 @@ export default class Resume extends Component {
                                     <h2 className="heading">Hi, I'm Joseph Salem.</h2>
                                     <p>A freelance web developer and designer, with a keen interest in technology and user experience.
                                         I'm all about the use and furthering of my analytical and problem solving skills in a practical
-                                        environment, contributing to the resolutions of existing problems and making a meaningful 
+                                        environment, contributing to the resolutions of new/existing problems and making a meaningful 
                                         impact in a world of evolving technologies.
                                     </p>
                                 </div>
@@ -47,7 +47,12 @@ export default class Resume extends Component {
                                     <div className="info-item-history history-items">
                                         <a href="https://www.ug.edu.gh/" target="_blank" rel="noreferrer">
                                             <div className="history-item">
-                                                <IconInfoBox title={"University of Ghana · Undergrad · 2013-2017"} text={"BSc Mathematics"}/>
+                                                <IconInfoBox
+                                                role={"BSc Mathematics"} 
+                                                institution={"University of Ghana"} 
+                                                designation={"Undergrad"}
+                                                timeline={"2013-2017"}  
+                                                />
                                             </div>
                                         </a>
                                     </div>
@@ -59,17 +64,48 @@ export default class Resume extends Component {
                                     </div>
                                     <div className="info-item-history history-items">
                                         <a href="https://assurance.cdhgroup.co/" target="_blank" rel="noreferrer">
+                                        <div className="history-item">
+                                                <IconInfoBox
+                                                role={"Data Entry Clerk"} 
+                                                institution={"Judah Shipping Agency"} 
+                                                designation={"Intern"}
+                                                timeline={"2015"}  
+                                                />
+                                            </div>
                                             <div className="history-item">
-                                                <IconInfoBox title={"Phoenix Life Assurance · Intern · 2016"} text={"Insurance Officer"}/>
+                                                <IconInfoBox
+                                                role={"Insurance Officer"} 
+                                                institution={"Phoenix Life Assurance"} 
+                                                designation={"Intern"}
+                                                timeline={"2016"}  
+                                                />
                                             </div>
                                         </a>
                                         <a href="http://gema.gov.gh/" target="_blank" rel="noreferrer">
                                             <div className="history-item">
-                                                <IconInfoBox title={"Ga-East Municipal Assembly · National Service personnel · 2017-2018"} text={"Ass. Budget Officer"}/>
+                                                <IconInfoBox
+                                                    role={"Ass. Budget Officer"} 
+                                                    institution={"Ga-East Municipal Assembly"} 
+                                                    designation={"National Service personnel"}
+                                                    timeline={"2017-2018"}  
+                                                />
                                             </div>
                                         </a>
                                         <div className="history-item">
-                                            <IconInfoBox title={"QBE Ghana Limited · Part-time · 2019-Present"} text={"Programmer"}/>
+                                            <IconInfoBox
+                                                role={"Junior Developer"} 
+                                                institution={"QBE Ghana Limited"} 
+                                                designation={"Part-time"}
+                                                timeline={"2018-2020"} 
+                                            />
+                                        </div>
+                                        <div className="history-item">
+                                            <IconInfoBox
+                                                role={"Programmer"} 
+                                                institution={"Freelance"} 
+                                                designation={"Part-time"}
+                                                timeline={"2020-Present"} 
+                                            />
                                         </div>
                                     </div>                                  
                                 </div>
