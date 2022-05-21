@@ -6,7 +6,10 @@
     @include landingPage_body();
     color: var(--secondaryColor);
     background: transparent !important;
-    height: auto !important;
+    height: 92vh !important;
+    overflow: auto;  //allow for scrolling
+    -ms-overflow-style: none;  //hide the scrollbar in IE and Edge
+    scrollbar-width: none;  //hide the scrollbar in Firefox */
     .resume_row{
         margin-top: 2vh; //change this to 1vh if height is get longer than viewport
         margin-left: 5%;
@@ -16,7 +19,7 @@
         width: 100%;
     }
     .resume_left-column{
-        background: #222730;
+        background: var(--lightDark);
         //padding: 7%;
         @include standardFonts();
 
@@ -45,6 +48,10 @@
         margin-top: 40px;
     }
 }
+ //hide scrollbar for Chrome, Safari and Opera
+ .resumePage_main_area::-webkit-scrollbar {
+    display: none;
+  }
 
 
 @media screen and (min-width: 1000px) {
@@ -113,7 +120,7 @@
         margin-top: 40px !important; 
 
         .ts_section{
-            background: #222730;
+            background: var(--lightDark);
             padding: 10px 20px 10px 20px;
             margin-top: 3px;
             //margin-bottom: 3px;

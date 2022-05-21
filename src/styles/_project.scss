@@ -1,17 +1,38 @@
+@import "./_fonts.scss";
+
 .projectArea{
     all: revert;
     overflow: hidden;
     border-radius: 0.5rem;
-    background-color: black;
-    width: 30%;
+    background-color: var(--lightDark);
+    color: var(--secondaryColor);
+
+    .text-area{
+      padding: 4% 6%;
+      line-height: 0;
+      @include standardFonts();
+
+      h3{
+        font-size: 1.7em;  
+      }
+
+      .subheading_portifolio{
+        font-size: 12px;
+        padding: 0;
+      }
+    }
+
+    .portifolio_button{
+      padding: 20px;
+    }
   }
 
 
   //pc screen
   @media screen and (min-width: 768px) {
     .projectSection_area{
-      margin-left: 50px;
-      margin-right: 50px;
+      //margin-left: 50px;
+      //margin-right: 50px;
       //height: 84vh !important;
     }
   }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import {Link} from "react-router-dom"; 
+
+import socialbuzzdigital_img from "../images/socialbuzzdigital_website.jpg";
 
 import Project from "./page-components/project";
 
@@ -10,9 +11,27 @@ class Projects extends Component {
         return(
 
             <div className="projectsPage_main_area">
-                <Project heading='Welcome to project'/>
+                <div className='Projects_wrapper'>
+                    <div className='project_cards'>
+                        <Project
+                            heading='Social Media Buzz' 
+                            img={socialbuzzdigital_img} 
+                            imgAlt='Social Media buzz Homepage'
+                            scope='Website Developement'
+                            date='2021'
+                        />
+                        <Project  
+                            heading='ZenFusion Academy'
+                        />
+                        <Project 
+                            heading='Loubna Sabbah'
+                        />
+                        <Project 
+                            heading='Welcome to project 4'
+                        />
+                    </div>
+                </div>
             </div>
-
             
         )
     }
