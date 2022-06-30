@@ -17,42 +17,48 @@ class LandingPage extends Component {
             
                 <div className="landingPage_main_area">
 
-                    <div className="ripplejkn-background">
-                        {/* <div className="xxlarge-circle shade5"/> */}
-                        {/* <div className="xlarge-circle shade4"/> */}
-                        <div className="large-circle shade3"/>
-                        <div className="medium-circle shade2"/>
-                        <div className="small-circle shade1" />
-                    </div>
-                    
-                    {/* featured image */}
-                    <div className="image-wrapper">
-                        <div className="young_developer_img">
-                            <img src={young_developer} className="img-fluid" alt="Joseph Larkai" />
+                    <div className="landingPage_background">
+
+                        <div className="ripplejkn-background">
+                            {/* <div className="xxlarge-circle shade5"/> */}
+                            {/* <div className="xlarge-circle shade4"/> */}
+                            <div className="large-circle shade3"/>
+                            <div className="medium-circle shade2"/>
+                            <div className="small-circle shade1" />
                         </div>
-                    </div>
+                        
+                        <div className='landingPage_contents'>
+                            {/* featured image */}
+                            <div className="image-wrapper">
+                                <div className="young_developer_img">
+                                    <img src={young_developer} className="img-fluid" alt="Joseph Larkai" />
+                                </div>
+                            </div>
 
-                    {/* title */}
-                    <div className="title-wrapper tittle-element">
-                        <div className="title">
-                            
-                            <h1>Joseph Salem Mensah-Larkai</h1>
+                            {/* title */}
+                            <div className="title-wrapper tittle-element">
+                                <div className="title">
+                                    
+                                    <h1>Joseph Salem Mensah-Larkai</h1>
+                                </div>
+                            </div>
+
+                            {/* attributes */}
+                            <ul className="home-attributes">
+                                <li>
+                                    <Link to="/resume"><DiPython className="attribute-icon"/>Pythonista.</Link>
+                                </li>
+                                <li>
+                                    <Link to="/resume"><GiMaterialsScience className="attribute-icon"/>Data Scientist.</Link>
+                                </li>
+                                <li>
+                                    <Link to="/resume"><BsCodeSlash className="attribute-icon"/>Web Developer.</Link>
+                                </li>
+                            </ul>
+
                         </div>
+
                     </div>
-
-                    {/* attributes */}
-                    <ul className="home-attributes">
-                        <li>
-                            <Link to="/resume"><DiPython className="attribute-icon"/>Pythonista.</Link>
-                        </li>
-                        <li>
-                            <Link to="/resume"><GiMaterialsScience className="attribute-icon"/>Data Scientist.</Link>
-                        </li>
-                        <li>
-                            <Link to="/resume"><BsCodeSlash className="attribute-icon"/>Web Developer.</Link>
-                        </li>
-                    </ul>
-
                 </div>
             </React.Fragment>
             
