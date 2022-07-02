@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import socialbuzzdigital_img from "../images/socialbuzzdigital_website.jpg";
+import loubnasabbah_img from "../images/loubnasabbah_website.jpg";
 
 import Project from "./page-components/project";
 
@@ -19,6 +20,7 @@ class Projects extends Component {
                             imgAlt='Social Media buzz Homepage'
                             scope='Agency Website'
                             date='2021'
+                            sitelink='https://www.socialbuzzdigital.com/'
                         />
                         <Project  
                             heading='Mista Maja' 
@@ -27,8 +29,11 @@ class Projects extends Component {
                         />
                         <Project 
                             heading='Loubna Sabbah'
+                            img={loubnasabbah_img} 
+                            imgAlt='Loubna Sabbah Homepage'
                             scope='Portifolio Website'
                             date='2020'
+                            sitelink='https://loubnasabbah.com/'
                         />
                     </div>
                 </div>
