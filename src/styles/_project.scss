@@ -38,7 +38,7 @@
         color: var(--secondaryColor);
     
         transition: background-color 300ms, color 300ms;
-        &:hover { background-color: darken(#242c38, 10%); color: #f3f3f3;};   
+        &:hover { background-color: darken(#242c38, 10%); color: #f3f3f3;} 
     }
   }
 
