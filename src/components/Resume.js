@@ -10,10 +10,11 @@ import {MdOutlineWorkOutline} from "react-icons/md";
 //list for table in skills section
 const language_list = [
     {advanced: 'Python', intermediate: 'Java', basic: 'C++'  },
-    {advanced: 'Adobe Photoshop', intermediate: 'JavaScript', basic: 'C'  },
-    {advanced: 'Microsoft Excel', intermediate: 'PHP', basic: 'Maya'  },
-    {advanced: 'Wordpress', intermediate: 'React', basic: 'Vue.js'  },
-    {advanced: 'HTML | CSS | SCSS', intermediate: 'Audacity', basic: 'GCP'  }
+    {advanced: 'HTML | CSS | SCSS', intermediate: 'React', basic: 'Vue.js'},
+    {advanced: 'Microsoft Excel', intermediate: 'Blender', basic: 'Maya'  },
+    {advanced: 'Wordpress', intermediate: 'Audacity', basic: 'GCP'  },
+    {advanced: 'Adobe Photoshop', intermediate: 'JavaScript', basic: 'C'  },   
+    
 ]
 const colNames = ['Advanced', 'Intermediate', 'Basic']
 

@@ -1,4 +1,6 @@
 $standardFontSize: 0.90em;
+$smallFontSize: 14px;
+$microFontSize: 12px;
 
 @mixin standardFonts{
     font-size: $standardFontSize;

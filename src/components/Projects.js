@@ -17,17 +17,18 @@ class Projects extends Component {
                             heading='Social Media Buzz' 
                             img={socialbuzzdigital_img} 
                             imgAlt='Social Media buzz Homepage'
-                            scope='Website Developement'
+                            scope='Agency Website'
                             date='2021'
                         />
                         <Project  
-                            heading='ZenFusion Academy'
+                            heading='Mista Maja' 
+                            scope='Photography Website'
+                            date='2022'
                         />
                         <Project 
                             heading='Loubna Sabbah'
-                        />
-                        <Project 
-                            heading='Welcome to project 4'
+                            scope='Portifolio Website'
+                            date='2020'
                         />
                     </div>
                 </div>
