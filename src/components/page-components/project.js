@@ -14,7 +14,14 @@ class Project extends Component{
                         <span className='subheading_portifolio'>{this.props.scope} ... {this.props.date}</span>
                         <hr/>
                         <span>{this.props.text}</span>
-                        <a className='portifolio_button' href="#" >visit</a>
+                        <a 
+                            className='portifolio_button' 
+                            href={this.props.sitelink} 
+                            target="_blank" 
+                            rel="noreferrer"
+                            >
+                                visit
+                        </a>
                     </div>
                     
                 </div>
