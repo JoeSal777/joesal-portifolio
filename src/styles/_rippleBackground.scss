@@ -9,7 +9,6 @@ body{
     //z-index: 1;
     border-radius: 50%;
     animation: ripple 15s infinite;
-    border: 100px solid #060607;
     box-shadow: 0px 0px 0px 0px #060607;
     left: 0; 
     right: 0; 
@@ -23,36 +22,87 @@ body{
   
   .small-circle{
     @include backgroundCircle();
-    width: 60%;
-    height: 800px;
+    border: 10px solid #060607;
+    width: 90%;
+    height: 600px;
   }
   
   .medium-circle{
     @include backgroundCircle();
-    width: 75%;
-    height: 1000px;
-    border: 100px solid #09090A;
+    border: 10px solid #09090A;
+    width: 95%;
+    height: 660px;
   }
   
   .large-circle{
     @include backgroundCircle();
-    width: 85%;
-    height: 1200px;
-    border: 100px solid #0a0a0a;
+    border: 10px solid #0a0a0a;
+    width: 100%;
+    height: 700px;
   }
+  //****************************************************//
+  //Tablet screen
+  @media screen and (min-width: 768px) {
+    .small-circle{
+      border: 100px solid #060607;
+      width: 70%;
+      height: 680px;
+      //border: 10px !important;
+    }
+    
+    .medium-circle{
+      border: 100px solid #09090A;
+      width: 90%;
+      height: 880px;
+    }
+    
+    .large-circle{
+      border: 100px solid #0a0a0a;
+      width: 100%;
+      height: 1080px;
+    }
+    
+  }
+  // //end of tablet
+  // //************************************************//
+
+  //*******************************************************//
+  // //PC Screen  
+  @media screen and (min-width: 1060px) {
+    .small-circle{
+      border: 100px solid #060607;
+      width: 60%;
+      height: 800px;
+    }
+    
+    .medium-circle{
+      border: 100px solid #09090A;
+      width: 75%;
+      height: 1000px;
+    }
+    
+    .large-circle{
+      border: 100px solid #0a0a0a;
+      width: 85%;
+      height: 1200px;
+    }
+  }
+  //End of PC Screen
+  //*******************************************//
+
   
-  .xlarge-circle{
-    @include backgroundCircle();
-    width: 1400px;
-    height: 1400px;
-    // border: 200px solid
-  }
-  .xxlarge-circle{
-    @include backgroundCircle();
-    width: 1600px;
-    height: 1600px;
-    visibility: hidden !important;
-  }
+  // .xlarge-circle{
+  //   @include backgroundCircle();
+  //   width: 1400px;
+  //   height: 1400px;
+  //   // border: 200px solid
+  // }
+  // .xxlarge-circle{
+  //   @include backgroundCircle();
+  //   width: 1600px;
+  //   height: 1600px;
+  //   visibility: hidden !important;
+  // }
   
   
   @keyframes ripple{
@@ -68,3 +118,88 @@ body{
       transform: scale(0.8);
     }
   }
+
+   //Phone screen
+  //  @media screen and (min-width: 1px) {
+  //   .small-circle{
+  //     width: 60%;
+  //     height: 800px;
+  //     visibility: hidden;
+  //   }
+    
+  //   .medium-circle{
+  //     width: 75%;
+  //     height: 1000px;
+  //     border: 100px solid #09090A;
+  //     visibility: hidden;
+  //   }
+    
+  //   .large-circle{
+  //     width: 85%;
+  //     height: 1200px;
+  //     border: 100px solid #0a0a0a; visibility: hidden;
+  //   }
+    
+  //   .xlarge-circle{
+  //     width: 1400px;
+  //     height: 1400px;
+  //     // border: 200px solid
+  //   }
+  // }
+  //end of phone
+  //************************************************//
+
+  //****************************************************//
+  //Tablet screen
+  // @media screen and (min-width: 768px) {
+  //   .small-circle{
+  //     width: 100%;
+  //     height: 680px;
+  //     text-align: center;
+  //   }
+    
+  //   .medium-circle{
+  //     width: 100%;
+  //     height: 730px;
+  //     border: 50px solid #09090A;
+  //   }
+    
+  //   .large-circle{
+  //     width: 1200px;
+  //     height: 1200px;
+  //     border: 100px solid #0a0a0a;
+  //     visibility: hidden;
+  //   }
+    
+  // }
+  // //end of tablet
+  // //************************************************//
+
+  // //*******************************************************//
+  // //PC Screen  
+  // @media screen and (min-width: 1060px) {
+  //   .small-circle{
+  //     width: 60%;
+  //     height: 800px;
+  //   }
+    
+  //   .medium-circle{
+  //     width: 75%;
+  //     height: 1000px;
+  //     border: 100px solid #09090A;
+  //   }
+    
+  //   .large-circle{
+  //     width: 85%;
+  //     height: 1200px;
+  //     border: 100px solid #0a0a0a;
+  //   }
+    
+  //   .xlarge-circle{
+  //     width: 1400px;
+  //     height: 1400px;
+  //     // border: 200px solid
+  //   }
+  // }
+  //End of PC Screen
+  //*******************************************//

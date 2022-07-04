@@ -26,15 +26,29 @@
     background-color: #222730;
   }
 
+
+
   // .ripplejkn-background{
   //   z-index: -1 !important;
   // }
   // .landingPage_contents{
   //   z-index: 2;
   // }
+
+  .landingPage_main_area{
+    background-image: radial-gradient( circle at center, var(--primaryColor) 0 55%, var(--primaryColor) 55% 100%);
+  }
+  //Tablet
+  @media only screen and (min-width: 768px) {
+    .landingPage_main_area {
+      background-image: radial-gradient( circle at center, var(--primaryColor) 0 65%, #0a0a0a 65% 100%);
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
   
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1060px) {
     .landingPage_main_area{
       margin-left: 50px;
       margin-right: 50px;
