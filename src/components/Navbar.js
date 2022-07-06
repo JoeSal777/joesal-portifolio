@@ -10,8 +10,12 @@ class Navbar extends Component {
     state={
         isOpen: false
     }
+    //as name says, handles the toggle on mobile view
     handleToggle = () =>{
         this.setState({isOpen:!this.state.isOpen})
+    }
+    resetToggle = () =>{
+        this.setState({isOpen:false})
     }
     render() {
         return (
@@ -20,7 +24,7 @@ class Navbar extends Component {
                     <div className="nav-header">
                         
                         {/* For contact-me icon in mobile view */}
-                        <Link to="/contact" className="nav-btn-small-screen">
+                        <Link to="/contact" className="nav-btn-small-screen" onClick={this.resetToggle}>
                             <button type="button">
                                 <FiMail className="Nav-icon" />   
                             </button>
@@ -28,7 +32,7 @@ class Navbar extends Component {
                         
                         
                         {/* For logo */}
-                        <Link to="/">
+                        <Link to="/" onClick={this.resetToggle} className='nav_logo'>
                             <img src={logo} alt="Joseph Larkai Logo" />
                         </Link>
 
@@ -43,14 +47,14 @@ class Navbar extends Component {
                     {/* For nav menu */}
                     <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
                         <li>
-                            <Link to="/resume">Resume.</Link>
+                            <Link to="/resume" onClick={this.handleToggle}>Resume.</Link>
                         </li>
                         <li>
-                            <Link to="/projects">Projects.</Link>
+                            <Link to="/projects" onClick={this.handleToggle}>Projects.</Link>
                         </li>
                     </ul>
 
-                    {/* For contact me icon in nav-bar */}
+                    {/* For contact me icon in nav-bar big screen */}
                     <Link to="/contact" className="nav-btn-big-screen">
                         <button type="button">
                             <FiMail className="Nav-icon" />  

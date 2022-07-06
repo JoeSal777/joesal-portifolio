@@ -7,9 +7,6 @@
     color: var(--secondaryColor);
     background: transparent !important;
     height: 92vh !important;
-    overflow: auto;  //allow for scrolling
-    -ms-overflow-style: none;  //hide the scrollbar in IE and Edge
-    scrollbar-width: none;  //hide the scrollbar in Firefox */
     .resume_row{
         margin-top: 2vh; //change this to 1vh if height is get longer than viewport
         margin-left: 5%;
@@ -20,7 +17,6 @@
     }
     .resume_left-column{
         background: var(--lightDark);
-        //padding: 7%;
         @include standardFonts();
 
         .resume_infoArea{
@@ -49,11 +45,45 @@
     }
 }
  //hide scrollbar for Chrome, Safari and Opera
- .resumePage_main_area::-webkit-scrollbar {
-    display: none;
+.resumePage_main_area::-webkit-scrollbar {
+   display: none;
+}
+
+@media screen and (max-width: 1000px){
+    .resumePage_main_area{
+        overflow: auto;  //allow for scrolling
+        -ms-overflow-style: none;  //hide the scrollbar in IE and Edge
+        scrollbar-width: none;  //hide the scrollbar in Firefox */
+    }
+    .resume_left-column{
+        padding: 7%;
+        .history-area{
+            clear: both;  //makes sure the float below only affects elements within the history-area class but not without
+            padding-top: 15px;
+        }
+        .history-icon{
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .history-icon-area{
+            width: 10% !important;
+        }
+    }
+    .resume_right-column{
+
+        .ts_section{
+            background: var(--lightDark);
+            padding: 10px 20px 10px 20px;
+            margin-top: 3px;
+            //margin-bottom: 3px;
+        }
+        .ts_table_section{
+            background-color: var(--mainDark);
+            padding: 20px;
+            border-radius: 3px;
+        }
+    }
   }
-
-
 @media screen and (min-width: 1000px) {
     .resumePage_main_area{
       margin-left: 3% !important;
@@ -79,6 +109,9 @@
         padding-right: 50px;
         padding-top: 30px;
         padding-bottom: 30px;
+        overflow: auto;  //allow for scrolling
+        -ms-overflow-style: none;  //hide the scrollbar in IE and Edge
+        scrollbar-width: none;  //hide the scrollbar in Firefox */
 
         .infoArea{
             width: 100%;
@@ -109,10 +142,14 @@
             }
         }
     }
+    //hide scrollbar for Chrome, Safari and Opera
+    .resume_left-column::-webkit-scrollbar {
+    display: none;
+    }
 
 
     .resume_right-column{
-        height: 82vh;
+        //height: 82vh;
         padding-left: 50px;
         //display: flex;
         //align-items: center;
@@ -128,11 +165,11 @@
         .ts_section p{
             font-size: 14px;
         }
-            .ts_table_section{
-                background-color: var(--mainDark);
-                padding: 20px;
-                border-radius: 3px;
-            }
+        .ts_table_section{
+            background-color: var(--mainDark);
+            padding: 20px;
+            border-radius: 3px;
+        }
          
     }
     

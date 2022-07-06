@@ -2,8 +2,9 @@
     //position: fixed;
     //top: 0;
     //left: 0 !important;
-    margin: 0px !important;
-    width: 100% !important;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto !important;
     background: transparent;
     z-index: 1;
   }
@@ -14,8 +15,14 @@
     display: flex;
     justify-content: space-between !important;
   }
+  .nav_logo{
+    display: inline-block;
+    vertical-align: middle;
+  }
   .nav-btn-small-screen {
     background: transparent;
+    display: inline-block;
+    vertical-align: middle;
     border: none;
     cursor: pointer;
     outline: none;
@@ -72,7 +79,7 @@
   .show-nav {
     height: 100px;
     background: transparent;
-    transition-duration: 2s;
+    transition-duration: 1s;
   }
   @media screen and (min-width: 768px) {
     .navbar{

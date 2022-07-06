@@ -44,20 +44,20 @@ body{
   //Tablet screen
   @media screen and (min-width: 768px) {
     .small-circle{
-      border: 100px solid #060607;
+      border: 100px solid #0e0e0f;
       width: 70%;
       height: 680px;
       //border: 10px !important;
     }
     
     .medium-circle{
-      border: 100px solid #09090A;
+      border: 100px solid #16181b;
       width: 90%;
       height: 880px;
     }
     
     .large-circle{
-      border: 100px solid #0a0a0a;
+      border: 100px solid #191c22;
       width: 100%;
       height: 1080px;
     }
@@ -70,19 +70,19 @@ body{
   // //PC Screen  
   @media screen and (min-width: 1060px) {
     .small-circle{
-      border: 100px solid #060607;
+      border: 100px solid #0e0e0f;
       width: 60%;
       height: 800px;
     }
     
     .medium-circle{
-      border: 100px solid #09090A;
+      border: 100px solid #16181b;
       width: 75%;
       height: 1000px;
     }
     
     .large-circle{
-      border: 100px solid #0a0a0a;
+      border: 100px solid #191c22;
       width: 85%;
       height: 1200px;
     }
