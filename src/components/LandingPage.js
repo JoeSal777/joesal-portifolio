@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import young_developer from "../images/young_developer2.png";
+import young_developer from "../images/young_developer1.png";
 import {Link} from "react-router-dom"; 
 
 import {BsCodeSlash} from "react-icons/bs";

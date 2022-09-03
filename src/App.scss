@@ -2,13 +2,15 @@
   --primaryColor:#000000;
   --secondaryColor:#cdc3ff;
   --lightSecondaryColor:#918cac;
-  --accentColor: rgb(43, 0, 255);
-  --lightAccentColor: #9884fc;
+  --accentColor: #820199;
+  --lightAccentColor: hsl(291, 48%, 70%);
   --secondaryAccentColor: #990000;
   --secondaryLightAccentColor: #ff3333;
   --mainLight:#f3f3f3;
   --mainDark:#19202A;
   --lightDark: #222730;
+  --highlightColor: #820199;
+  --textSelectionColor: #ffffff;
   --primaryFont: 'Nunito', sans-serif;
   --secondaryFont: 'Poiret One', cursive;
   --tertiaryFont: 'Poiret One', cursive;
@@ -42,6 +44,16 @@ body{
 }
 body::-webkit-scrollbar {
   display: none;
+}
+
+//Text selection color
+::-moz-selection { /* Code for Firefox */
+  color: var(--textSelectionColor);
+  background: var(--highlightColor);
+}
+::selection {
+  color: var(--textSelectionColor);
+  background: var(--highlightColor);
 }
 
 .text-subtitle{
