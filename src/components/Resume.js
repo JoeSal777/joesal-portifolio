@@ -49,13 +49,23 @@ export default class Resume extends Component {
                                         <a href="https://www.ug.edu.gh/" target="_blank" rel="noreferrer">
                                             <div className="history-item">
                                                 <IconInfoBox
-                                                role={"BSc Mathematics"} 
+                                                role={"MSc Accounting & Finance"} 
                                                 institution={"University of Ghana"} 
-                                                designation={"Undergrad"}
-                                                timeline={"2013-2017"}  
+                                                designation={"Graduate"} 
                                                 />
                                             </div>
                                         </a>
+                                        <a href="https://www.ug.edu.gh/" target="_blank" rel="noreferrer">
+                                            <div className="history-item">
+                                                <IconInfoBox
+                                                role={"BSc Mathematics"} 
+                                                institution={"University of Ghana"} 
+                                                designation={"Undergrad"} 
+                                                timeline={"(Present)"} 
+                                                />
+                                            </div>
+                                        </a>
+                                        
                                     </div>
                                 </div>
 
@@ -64,21 +74,19 @@ export default class Resume extends Component {
                                         <MdOutlineWorkOutline className="history-icon"/>
                                     </div>
                                     <div className="info-item-history history-items">
-                                        <a href="https://assurance.cdhgroup.co/" target="_blank" rel="noreferrer">
-                                        <div className="history-item">
+                                            <div className="history-item">
                                                 <IconInfoBox
                                                 role={"Data Entry Clerk"} 
                                                 institution={"Judah Shipping Agency"} 
-                                                designation={"Intern"}
-                                                timeline={"2015"}  
+                                                designation={"Intern"} 
                                                 />
                                             </div>
+                                        <a href="https://assurance.cdhgroup.co/" target="_blank" rel="noreferrer">
                                             <div className="history-item">
                                                 <IconInfoBox
                                                 role={"Insurance Officer"} 
                                                 institution={"Phoenix Life Assurance"} 
                                                 designation={"Intern"}
-                                                timeline={"2016"}  
                                                 />
                                             </div>
                                         </a>
